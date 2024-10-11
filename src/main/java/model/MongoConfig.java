@@ -12,7 +12,7 @@ public class MongoConfig {
     @Bean
     public MongoClient mongoClient() {
         // Substitua a string a seguir pela sua URI do MongoDB Atlas
-        String uri = "mongodb+srv://gabrield3vsilva:1981abcd.@cluster0.shx7xrb.mongodb.net/";
+        String uri = "mongodb+srv://alinysouza:1981abcd.@cluster0.shx7xrb.mongodb.net/";
         MongoClient client = MongoClients.create(uri);
 
         // Verifica se a conexão foi bem-sucedida
